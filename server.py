@@ -12,7 +12,15 @@ app.jinja_env.undefined = StrictUndefined
 @app.route('/')
 def homepage():
     """View homepage."""
-    drug_name = "celecoxib"
+
+    return render_template('index.html')
+
+@app.route('/results')
+def render_results():
+    """View results page"""
+
+    drug_name = request.args.get('drug')
+    print(drug_name, "****************************drug name")
 
     url = 'https://data.cpicpgx.org/v1/drug?name=in.("' + drug_name + '")'
 
@@ -24,7 +32,7 @@ def homepage():
     print(flowchart, "****************************RESULTS")
 
 
-    return render_template('index.html', 
+    return render_template('results.html', 
                             flowchart=flowchart)
 
 

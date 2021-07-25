@@ -1,16 +1,37 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-
-  </head>
-
-<body>  
-
-  <img src="{{ flowchart }}">
-  
-</body>
+{% extends 'base.html' %}
 
 
-</html>    
+
+{% block body %}
+  <form method ="GET" action="/results" name="drug-form" id="drug-form">
+    <select name="drug" id="drug-name">
+      <optgroup label="Antibiotics">
+        <option value="amikacin">Amikacin</option>
+        <option value="gentamicin">Gentamicin</option>
+        <option value="kanamycin">Kanamycin</option>
+        <option value="paromomycin">Paromomycin</option>
+        <option value="plazomicin">Plazomicin</option>
+        <option value="streptomycin">Streptomycin</option>
+        <option value="tobramycin">Tobramycin</option>
+      </optgroup>
+      <optgroup label="anesthetics">
+        <option value="desflurane">Desflurane</option>
+        <option value="enflurane">Enflurane</option>
+        <option value="halothane">Halothane</option>
+      </optgroup>
+      <optgroup label="anticoagulants">
+
+      </optgroup>
+      <optgroup label="antidepressants">
+
+      </optgroup>
+      <optgroup label="antivirals">
+
+      </optgroup>
+    </select>
+    <input type="submit" value="Submit" form="drug-form">
+  </form>
+
+
+
+{% endblock %}
