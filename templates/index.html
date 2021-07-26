@@ -5,16 +5,18 @@
 {% block body %}
 
 
-  {% for drug_name in drugs_with_flowcharts %}
+
   
       <form method ="GET" action="/results" name="drug-form" id="drug-form">
         <select name="drug" id="drug-name">
+          
+          {% for drug_name in drugs_with_flowcharts %}
           <option value="{{ drug_name }}">{{ drug_name }}</option>
-      
+          {% endfor %}
         </select>
         <input type="submit" value="Submit" form="drug-form">
       </form>
 
-  {% endfor %}
+
 
 {% endblock %}

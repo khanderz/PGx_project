@@ -58,7 +58,7 @@ def render_results():
     print(drug_name, "****************************drug name")
 
     url = 'https://data.cpicpgx.org/v1/drug?name=in.("' + drug_name + '")'
-
+    print(url, "**************************** url")
 
     res = requests.get(url)
     data = res.json()
