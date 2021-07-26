@@ -7,14 +7,14 @@
 
 
   
-      <form method ="GET" action="/results" name="drug-form" id="drug-form">
-        <select name="drug" id="drug-name">
+      <form method ="GET" action="/results" name="gene-form" id="gene-form">
+        <select name="gene" id="gene-name">
           
-          {% for drug_name in drugs_with_flowcharts %}
-          <option value="{{ drug_name }}">{{ drug_name }}</option>
+          {% for gene in drug_gene_symbol %}
+          <option value="{{ gene }}">{{ gene }}</option>
           {% endfor %}
         </select>
-        <input type="submit" value="Submit" form="drug-form">
+        <input type="submit" value="Submit" form="gene-form">
       </form>
 
 

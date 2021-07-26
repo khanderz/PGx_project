@@ -17,58 +17,55 @@ def homepage():
 
 @app.route('/load_options')
 def load_options():
-    """If flowchart is not null, load drug name onto options list"""    
+    """load gene symbols onto option list"""    
 
-    url = 'https://data.cpicpgx.org/v1/drug?flowchart=neq.(null)'
+    url = 'https://data.cpicpgx.org/v1/gene_result'
     res = requests.get(url)
     data = res.json()
 
     # json data returned:
-        # [{
-        #     "drugid":"RxNorm:38400",
-        #     "name":"atomoxetine",
-        #     "pharmgkbid":"PA134688071",
-        #     "rxnormid":"38400",
-        #     "drugbankid":"DB00289",
-        #     "atcid":["N06BA09"],
-        #     "umlscui":null,
-        #     "flowchart":"https://files.cpicpgx.org/images/flow_chart/Atomoxetine_CDS_Flow_Chart.jpg",
-        #     "version":40,
-        #     "guidelineid":104243,
-        # }]
+    # [{
+    #     "id":829397,
+    #     "genesymbol":"CFTR",
+    #     "result":"ivacaftor responsive in CF patients",
+    #     "activityscore":"n/a",
+    #     "ehrpriority":null,
+    #     "consultationtext":null,
+    #     "version":1,
+    #     "frequency":null
+    #     }
 
-        # to access name: data[i]['name']
+        # to access name: data[i]['key']
 
 
-    drugs_with_flowcharts = []
+    drug_gene_symbol = []
 
     for key in data:
-       drugs_with_flowcharts.append(key['name'])
+       drug_gene_symbol.append(key['genesymbol'])
 
   
 
-    return render_template('index.html', drugs_with_flowcharts=drugs_with_flowcharts)
+    return render_template('index.html', drug_gene_symbol=drug_gene_symbol)
 
 
 @app.route('/results')
 def render_results():
     """View results page"""
 
-    drug_name = request.args.get('drug')
-    print(drug_name, "****************************drug name")
+    gene = request.args.get('gene')
+    print(gene, "****************************gene name")
 
-    url = 'https://data.cpicpgx.org/v1/drug?name=in.("' + drug_name + '")'
-    print(url, "**************************** url")
+    url = 'https://data.cpicpgx.org/v1/gene_result?genesymbol=in.("' + gene + '")'
 
     res = requests.get(url)
     data = res.json()
-    flowchart = data[0]['flowchart']
+    cds = data[0]['consultationtext']
 
-    print(flowchart, "****************************RESULTS")
+    print(cds, "****************************RESULTS")
 
 
     return render_template('results.html', 
-                            flowchart=flowchart)
+                            cds=cds)
 
 
 if __name__ == '__main__':
