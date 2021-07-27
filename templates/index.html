@@ -8,12 +8,19 @@
 
   
       <form method ="GET" action="/results" name="gene-form" id="gene-form">
-        <select name="gene" id="gene-name">
-          
-          {% for gene in drug_gene_symbol %}
+        
+        <select name="gene" id="gene-name"> 
+          {% for gene in gene_symbol %}
           <option value="{{ gene }}">{{ gene }}</option>
           {% endfor %}
         </select>
+
+        <select name="result" id="result"> 
+          {% for result in results %}
+          <option value="{{ result }}">{{ result }}</option>
+          {% endfor %}
+        </select>
+
         <input type="submit" value="Submit" form="gene-form">
       </form>
 
