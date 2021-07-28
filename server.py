@@ -1,9 +1,10 @@
 """server for PGx project"""
 
-from flask import (Flask, render_template, request)
+from flask import (Flask, render_template, request, jsonify)
 from jinja2 import StrictUndefined
 import requests
 import os
+import json
 
 
 app = Flask(__name__)
@@ -114,15 +115,28 @@ def query_pharmgkb():
 def query_fda_for_dosing():
     drug = "aripiprazole"
 
-    url = 'https://api.fda.gov/drug/label.json?api_key=' + API_KEY + '&search=' + drug
+    url = 'https://api.fda.gov/drug/label.json?api_key=' + API_KEY + '&search=description:' + drug
 
-    print(url, "****************************url")
     res = requests.get(url)
     print(res, "****************************res")
 
     data = res.json()
 
-    return render_template('fda_results.html', data=data)
+    # lists is one big list
+    lists = data['results']
+
+
+    # # results is converted to json string
+    # results = json.dumps(lists)
+
+    # result = json.loads(results)
+
+    # # result is converted to list
+    # result = json.loads(results)
+
+    # keys = result.keys()
+
+    return render_template('fda_results.html', data=lists)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)

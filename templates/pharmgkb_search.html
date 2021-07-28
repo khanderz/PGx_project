@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+
+
+
+  
+      <form method ="GET" action="/pharmgkb_search" name="pharmgkb" id="pharmgkb">
+        
+        <select name="drug" id="drug"> 
+          {% for drug in drugs %}
+          <option value="{{ drug }}">{{ drug }}</option>
+          {% endfor %}
+        </select>
+
+
+        <input type="submit" value="Submit" form="pharmgkb">
+      </form>
+
+
+
+{% endblock %}
