@@ -4,8 +4,11 @@
 
 {% block body %}
 
-{{ data }}
 
+    {% for drug, brand_name in drug_data.items() %}
+        {{ drug }}
+        {{ brand_name }}
+    {% endfor %}    
 
 
 {% endblock %}

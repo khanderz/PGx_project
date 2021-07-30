@@ -5,6 +5,7 @@ from jinja2 import StrictUndefined
 import requests
 import os
 import json
+from model import connect_to_db, db, Drug
 
 
 app = Flask(__name__)
@@ -12,6 +13,8 @@ app.secret_key = "dev"
 app.jinja_env.undefined = StrictUndefined
 
 API_KEY = os.environ['FDA_KEY']
+
+drug_datafile = open('data/fda_labeling.json')
 
 @app.route('/')
 def homepage():
@@ -138,13 +141,28 @@ def query_fda_for_dosing():
 
     return render_template('fda_results.html', data=lists)
 
-@app.route('/drug_datafile')    
+@app.route('/drug_search')    
 def render_drugdata():
-    drug_datafile = open('fda_labeling.json')
+    drug_datafile = open('data/fda_labeling.json')
 
     data = json.load(drug_datafile)
 
-    return render_template('drug_data.html', data=data)
+    drugs = data.keys()
+
+    return render_template('drug_search.html', drugs=drugs)
+
+@app.route('/drug_data')   
+def drug_search():
+    drug = request.args.get("drug_json")
+    print(drug, "*******************Drug" )
+
+    drug_datafile = open('data/fda_labeling.json')
+
+    data = json.load(drug_datafile) 
+
+    drug_data = data[drug]       
+
+    return render_template('drug_data.html', drug_data=drug_data)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)

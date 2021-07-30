@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+
+<form method ="GET" action="/drug_data" name="drug_json" id="drug_json">
+        
+    <select name="drug_json" id="drug_json"> 
+      {% for drug in drugs %}
+      <option value="{{ drug }}">{{ drug }}</option>
+      {% endfor %}
+    </select>
+
+
+    <input type="submit" value="Submit" form="drug_json">
+  </form>
+
+
+
+{% endblock %}
