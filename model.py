@@ -23,7 +23,7 @@ class Drug(db.Model):
         return f'<drug_id={self.drug_id} generic={self.generic_name} brand={self.brand_name}>'  
 
 
-def connect_to_db(flask_app, db_uri='postgresql:///drugs', echo=True):
+def connect_to_db(flask_app, db_uri='postgresql:///drugs', echo=False):
     flask_app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
     flask_app.config['SQLALCHEMY_ECHO'] = echo
     flask_app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False

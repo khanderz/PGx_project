@@ -5,10 +5,9 @@
 {% block body %}
 
 
-    {% for drug, brand_name in drug_data.items() %}
-        {{ drug }}
-        {{ brand_name }}
-    {% endfor %}    
+        {{ drug_data.generic_name }}
+        {{ drug_data.brand_name }}
+ 
 
 
 {% endblock %}
