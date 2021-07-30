@@ -138,5 +138,13 @@ def query_fda_for_dosing():
 
     return render_template('fda_results.html', data=lists)
 
+@app.route('/drug_datafile')    
+def render_drugdata():
+    drug_datafile = open('fda_labeling.json')
+
+    data = json.load(drug_datafile)
+
+    return render_template('drug_data.html', data=data)
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
