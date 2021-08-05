@@ -46,7 +46,7 @@ for drug in drug_data:
                                 pharmGKB_ID, 
                                 pgx_moa)
 
-    db_drug.dosage = create.dosage(dosing,
+    db_drug.dosage = crud.create_dosage(dosing,
                                     special_populations3,
                                     pgx)                            
 

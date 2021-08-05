@@ -21,7 +21,7 @@ def create_dosage(dosing, special_populations, pgx):
                     pgx=pgx)
 
     db.session.add(dosage)
-    db.sesion.commit()
+    db.session.commit()
 
     return dosage                    
 
