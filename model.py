@@ -54,7 +54,6 @@ class Pharmacokinetics(db.Model):
 
     overview = db.Column(db.Text)
     absorption = db.Column(db.Text)
-    food = db.Column(db.Text)
     distribution = db.Column(db.Text)
     elimination = db.Column(db.Text)
     special_populations = db.Column(db.Text)

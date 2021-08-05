@@ -25,12 +25,11 @@ def create_dosage(dosing, special_populations, pgx):
 
     return dosage                    
 
-def create_pk(overview, absorption, food, distribution, elimination, special_populations, ddi_studies):
+def create_pk(overview, absorption, distribution, elimination, special_populations, ddi_studies):
     """create pk on pk class"""
 
     pk = Pharmacokinetics(overview=overview, 
                         absorption=absorption, 
-                        food=food, 
                         distribution=distribution, 
                         elimination=elimination, 
                         special_populations=special_populations, 

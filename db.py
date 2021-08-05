@@ -11,19 +11,18 @@ os.system('createdb drugs')
 connect_to_db(app)
 db.create_all()
 
-with open('data/test.json') as f:
+with open('data/drug_data.json') as f:
     drug_data = json.loads(f.read())
 
 drugs_in_db = []
 
 for drug in drug_data:
-    generic_name, brand_name, pharmGKB_ID, pharmacokinetics, overview, absorption, food, distribution, elimination, special_populations, ddi_studies, dosage, dosing, special_populations3, pgx, pharmacogenomics, overview2, dosage2, special_populations2, ddis, lab_tests, precautions, pgx_moa = (drug['generic_name'],
+    generic_name, brand_name, pharmGKB_ID, pharmacokinetics, overview, absorption, distribution, elimination, special_populations, ddi_studies, dosage, dosing, special_populations3, pgx, pharmacogenomics, overview2, dosage2, special_populations2, ddis, lab_tests, precautions, pgx_moa = (drug['generic_name'],
                         drug['brand_name'],
                         drug['pharmGKB_ID'],
                         drug['pharmacokinetics'],
                         drug['pharmacokinetics']['overview'],
                         drug['pharmacokinetics']['absorption'],
-                        drug['pharmacokinetics']['food'],
                         drug['pharmacokinetics']['distribution'],
                         drug['pharmacokinetics']['elimination'],
                         drug['pharmacokinetics']['special_populations'],
@@ -52,7 +51,6 @@ for drug in drug_data:
 
     db_drug.pharmacokinetics = crud.create_pk(overview, 
                                                 absorption, 
-                                                food, 
                                                 distribution, 
                                                 elimination, 
                                                 special_populations, 
