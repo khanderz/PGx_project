@@ -5,8 +5,19 @@
 {% block body %}
 
 
-        {{ drug_data.generic_name }}
-        {{ drug_data.brand_name }}
+       Generic name: {{ drug_data['generic_name'] }} <br>
+      Brand name:  {{ drug_data['brand_name'] }} <br>
+       PharmGKB ID: {{ drug_data['pharmGKB_ID'] }} <br>
+        Pharmacokinetics: {{ drug_data['pharmacokinetics']['overview'] }} <br>
+                        {{ drug_data['pharmacokinetics']['absorption'] }} <br>
+                        {{ drug_data['pharmacokinetics']['food'] }} <br>
+                        {{ drug_data['pharmacokinetics'][elimination]['metabolism'] }} <br>
+                        {{ drug_data['pharmacokinetics']['elimination']['excretion'] }} <br>
+                        {{ drug_data['pharmacokinetics']['specific_populations'] }} <br>
+                        {{ drug_data['pharmacokinetics']['ddi_studies'] }} <br>
+        Dosage and administration: {{ drug_data['dosage_and_administration'] }} <br>
+       Pharmacogenomics: {{ drug_data['pharmacogenomics'] }} <br>
+        PGX mechanism of action class: {{ drug_data['pgx_moa'] }} <br>
  
 
 

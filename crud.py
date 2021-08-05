@@ -1,20 +1,53 @@
-from model import connect_to_db, db, Drug
+from model import connect_to_db, db, Drug, Pharmacokinetics, Pharmacogenomics
 
-def create_drug(generic_name, brand_name, pharmGKB_ID, pharmacokinetics, dosage_and_administration, pharmacogenomics, pgx_moa):
+def create_drug(generic_name, brand_name, pharmGKB_ID, dosage, pgx_moa):
     """create and return new drug"""
 
     drug = Drug(generic_name=generic_name, 
                 brand_name=brand_name, 
                 pharmGKB_ID=pharmGKB_ID, 
-                pharmacokinetics=pharmacokinetics, 
-                dosage_and_administration=dosage_and_administration, 
-                pharmacogenomics=pharmacogenomics, 
+                dosage=dosage, 
                 pgx_moa=pgx_moa)
 
     db.session.add(drug)
     db.session.commit()
 
-    return drug            
+    return drug    
+
+def create_pk(overview, absorption, food, distribution, elimination, special_populations, ddi_studies):
+    """create pk on pk class"""
+
+    pk = Pharmacokinetics(overview=overview, 
+                        absorption=absorption, 
+                        food=food, 
+                        distribution=distribution, 
+                        elimination=elimination, 
+                        special_populations=special_populations, 
+                        ddi_studies=ddi_studies)
+
+
+
+    db.session.add(pk)
+    db.session.commit()
+
+    return pk           
+
+
+def create_pgx(overview, dosage, special_populations, ddis, lab_tests, precautions):
+    """create pgx on pgx class"""
+
+    pgx = Pharmacogenomics(overview=overview, 
+                            dosage=dosage, 
+                            special_populations=special_populations, 
+                            ddis=ddis, 
+                            lab_tests=lab_tests, 
+                            precautions=precautions)
+
+    db.session.add(pgx)
+    db.session.commit()
+
+    return pgx                         
+
 
 def get_drugs():
     """Return all drugs"""

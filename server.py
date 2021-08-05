@@ -5,7 +5,7 @@ from jinja2 import StrictUndefined
 import requests
 import os
 import json
-from model import connect_to_db, db, Drug
+from model import connect_to_db, db, Drug, Pharmacokinetics, Pharmacogenomics
 import crud
 
 
@@ -16,7 +16,7 @@ app.jinja_env.undefined = StrictUndefined
 
 API_KEY = os.environ['FDA_KEY']
 
-drug_datafile = open('data/fda_labeling.json')
+drug_datafile = open('data/drug_data.json')
 
 @app.route('/')
 def homepage():
@@ -165,10 +165,9 @@ def drug_search():
 
     drug_data = crud.get_drug_by_name(drug)  
     print(drug_data, "*******************Drug data" )
-    print(type(drug_data), "&&&&&&&&&&&&&&&&TYPE")
 
     return render_template('drug_data.html', drug_data=drug_data)
 
 if __name__ == '__main__':
     connect_to_db(app)
-    app.run(host='0.0.0.0', debug=False)
+    app.run(host='0.0.0.0', debug=True)
