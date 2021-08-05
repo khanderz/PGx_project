@@ -1,18 +1,29 @@
-from model import connect_to_db, db, Drug, Pharmacokinetics, Pharmacogenomics
+from model import connect_to_db, db, Drug, Dosage, Pharmacokinetics, Pharmacogenomics
 
-def create_drug(generic_name, brand_name, pharmGKB_ID, dosage, pgx_moa):
+def create_drug(generic_name, brand_name, pharmGKB_ID, pgx_moa):
     """create and return new drug"""
 
     drug = Drug(generic_name=generic_name, 
                 brand_name=brand_name, 
                 pharmGKB_ID=pharmGKB_ID, 
-                dosage=dosage, 
                 pgx_moa=pgx_moa)
 
     db.session.add(drug)
     db.session.commit()
 
     return drug    
+
+def create_dosage(dosing, special_populations, pgx):
+    """create dosing for drug"""
+
+    dosage = Dosage(dosing=dosing, 
+                    special_populations=special_populations,
+                    pgx=pgx)
+
+    db.session.add(dosage)
+    db.sesion.commit()
+
+    return dosage                    
 
 def create_pk(overview, absorption, food, distribution, elimination, special_populations, ddi_studies):
     """create pk on pk class"""
@@ -24,8 +35,6 @@ def create_pk(overview, absorption, food, distribution, elimination, special_pop
                         elimination=elimination, 
                         special_populations=special_populations, 
                         ddi_studies=ddi_studies)
-
-
 
     db.session.add(pk)
     db.session.commit()

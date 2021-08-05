@@ -12,7 +12,9 @@ class Drug(db.Model):
                         primary_key = True)
     pk_id = db.Column(db.Integer, db.ForeignKey('pks.pk_id')) 
     pgx_id = db.Column(db.Integer, db.ForeignKey('pgx.pgx_id'))
+    dosage_id = db.Column(db.Integer, db.ForeignKey('dosage.dosage_id'))
 
+    dosage = db.relationship("Dosage", backref="drug")
     pharmacokinetics = db.relationship("Pharmacokinetics", backref="drug")
     pharmacogenomics = db.relationship("Pharmacogenomics", backref="drugs")
 
@@ -20,12 +22,26 @@ class Drug(db.Model):
     brand_name = db.Column(db.String)
     pharmGKB_ID = db.Column(db.String)
 
-    dosage = db.Column(db.Text)
     pgx_moa = db.Column(db.String)
              
 
     def __repr__(self):
         return f'<drug_id={self.drug_id} generic={self.generic_name} brand={self.brand_name}>'  
+
+class Dosage(db.Model):
+    """dosing for a drug"""
+
+    __tablename__ = "dosage"
+
+    dosage_id = db.Column(db.Integer,
+                        autoincrement = True,
+                        primary_key = True)
+    dosing = db.Column(db.Text)
+    special_populations = db.Column(db.Text)
+    pgx = db.Column(db.Text)        
+
+    def __repr__(self):
+        return f'<dosing_id={self.dosage_id} dosing ={self.dosing}>' 
 
 class Pharmacokinetics(db.Model):
     """PK of a drug"""
@@ -45,7 +61,7 @@ class Pharmacokinetics(db.Model):
     ddi_studies = db.Column(db.Text)
 
     def __repr__(self):
-        return f'<pk id ={self.pk_id} drug ={self.overview}>'
+        return f'<pk id ={self.pk_id} drug ={self.overview}>'        
 
 class Pharmacogenomics(db.Model):
     """PGx of a drug"""
