@@ -54,9 +54,171 @@
         "pgx_moa": "NAT2 substrate"
     },
     {
-        "generic_name": null,
-        "brand_name": null,
-        "pharmGKB_ID": null,
+        "generic_name": "aripiprazole",
+        "brand_name": ["abilify", "abilitat"],
+        "pharmGKB_ID": "PA10026",
+        "pharmacokinetics": {
+            "overview": "ABILIFY activity is presumably primarily due to the parent drug, aripiprazole, and to a lesser extent, to its major metabolite, dehydro-aripiprazole, which has been shown to have affinities for D 2 receptors similar to the parent drug and represents 40% of the parent drug exposure in plasma. The mean elimination half-lives are about 75 hours and 94 hours for aripiprazole and dehydro-aripiprazole, respectively. Steady-state concentrations are attained within 14 days of dosing for both active moieties. Aripiprazole accumulation is predictable from single-dose pharmacokinetics. At steady-state, the pharmacokinetics of aripiprazole are dose-proportional. Elimination of aripiprazole is mainly through hepatic metabolism involving two P450 isozymes, CYP2D6 and CYP3A4. Pharmacokinetic studies showed that ABILIFY DISCMELT Orally Disintegrating Tablets are bioequivalent to ABILIFY Tablets. For CYP2D6 poor metabolizers, the mean elimination half-life for aripiprazole is about 146 hours.",
+            "absorption": "Tablet: Aripiprazole is well absorbed after administration of the tablet, with peak plasma concentrations occurring within 3 hours to 5 hours; the absolute oral bioavailability of the tablet formulation is 87%. ABILIFY can be administered with or without food. Administration of a 15 mg ABILIFY Tablet with a standard high-fat meal did not significantly affect the Cmax or AUC of aripiprazole or its active metabolite, dehydroaripiprazole, but delayed Tmax by 3 hours for aripiprazole and 12 hours for dehydroaripiprazole. Oral Solution: Aripiprazole is well absorbed when administered orally as the solution. At equivalent doses, the plasma concentrations of aripiprazole from the solution were higher than that from the tablet formulation. In a relative bioavailability study comparing the pharmacokinetics of 30 mg aripiprazole as the oral solution to 30 mg aripiprazole tablets in healthy subjects, the solution to tablet ratios of geometric mean Cmax and AUC values were 122% and 114%, respectively. The single-dose pharmacokinetics of aripiprazole were linear and dose-proportional between the doses of 5 mg to 30 mg. INTRAMUSCULAR ADMINISTRATION: In two pharmacokinetic studies of aripiprazole injection administered intramuscularly to healthy subjects, the median times to the peak plasma concentrations were at 1 hour and 3 hours. A 5 mg intramuscular injection of aripiprazole had an absolute bioavailability of 100%. The geometric mean maximum concentration achieved after an intramuscular dose was on average 19% higher than the Cmax of the oral tablet. While the systemic exposure over 24 hours was generally similar between aripiprazole injection given intramuscularly and after oral tablet administration, the aripiprazole AUC in the first 2 hours after an intramuscular injection was 90% greater than the AUC after the same dose as a tablet. In stable patients with schizophrenia or schizoaffective disorder, the pharmacokinetics of aripiprazole after intramuscular administration were linear over a dose range of 1 mg to 45 mg. Although the metabolism of aripiprazole injection was not systematically evaluated, the intramuscular route of administration would not be expected to alter the metabolic pathways.",
+            "distribution": "The steady-state volume of distribution of aripiprazole following intravenous administration is high (404 L or 4.9 L/kg), indicating extensive extravascular distribution. At therapeutic concentrations, aripiprazole and its major metabolite are greater than 99% bound to serum proteins, primarily to albumin. In healthy human volunteers administered 0.5 to 30 mg/day aripiprazole for 14 days, there was dose-dependent D2 receptor occupancy indicating brain penetration of aripiprazole in humans.",
+            "elimination": "Aripiprazole is metabolized primarily by three biotransformation pathways: dehydrogenation, hydroxylation, and N-dealkylation. Based on in vitro studies, CYP3A4 and CYP2D6 enzymes are responsible for dehydrogenation and hydroxylation of aripiprazole, and N-dealkylation is catalyzed by CYP3A4. Aripiprazole is the predominant drug moiety in the systemic circulation. At steady-state, dehydroaripiprazole, the active metabolite, represents about 40% of aripiprazole AUC in plasma. Following a single oral dose of [14C]-labeled aripiprazole, approximately 25% and 55% of the administered radioactivity was recovered in the urine and feces, respectively. Less than 1% of unchanged aripiprazole was excreted in the urine and approximately 18% of the oral dose was recovered unchanged in the feces.",
+            "special_populations": null,
+            "ddi_studies": "Effects of other drugs on the exposures of aripiprazole and dehydro-aripiprazole are summarized in Figure 1 and Figure 2, respectively. Based on simulation, a 4.5-fold increase in mean Cmax and AUC values at steady-state is expected when extensive metabolizers of CYP2D6 are administered with both strong CYP2D6 and CYP3A4 inhibitors. A 3-fold increase in mean Cmax and AUC values at steady-state is expected in poor metabolizers of CYP2D6 administered with strong CYP3A4 inhibitors. figure 1 figure 2 The effects of ABILIFY on the exposures of other drugs are summarized in Figure 3. A population PK analysis in patients with major depressive disorder showed no substantial change in plasma concentrations of fluoxetine (20 or 40 mg/day), paroxetine CR (37.5 or 50 mg/day), or sertraline (100 or 150 mg/day) dosed to steady-state. The steady-state plasma concentrations of fluoxetine and norfluoxetine increased by about 18% and 36%, respectively, and concentrations of paroxetine decreased by about 27%. The steady-state plasma concentrations of sertraline and desmethylsertraline were not substantially changed when these antidepressant therapies were coadministered with aripiprazole. figure 3"
+        },
+        "dosage": {
+            "dosing": "see DOSE TABLE, Oral formulations: Administer once daily without regard to meals.IM injection: Wait at least 2 hours between doses. Maximum daily dose 30 mg. Known CYP2D6 poor metabolizers: Half of the usual dose. Schizophrenia: Adults Dose Selection: The recommended starting and target dose for ABILIFY is 10 mg/day or 15 mg/day administered on a once-a-day schedule without regard to meals. ABILIFY has been systematically evaluated and shown to be effective in a dose range of 10 mg/day to 30 mg/day, when administered as the tablet formulation; however, doses higher than 10 mg/day or 15 mg/day were not more effective than 10 mg/day or 15 mg/day. Dosage increases should generally not be made before 2 weeks, the time needed to achieve steady-state. Maintenance Treatment: Maintenance of efficacy in schizophrenia was demonstrated in a trial involving patients with schizophrenia who had been symptomatically stable on other antipsychotic medications for periods of 3 months or longer. These patients were discontinued from those medications and randomized to either ABILIFY 15 mg/day or placebo, and observed for relapse. Patients should be periodically reassessed to determine the continued need for maintenance treatment. Adolescents Dose Selection: The recommended target dose of ABILIFY is 10 mg/day. Aripiprazole was studied in adolescent patients 13 to 17 years of age with schizophrenia at daily doses of 10 mg and 30 mg. The starting daily dose of the tablet formulation in these patients was 2 mg, which was titrated to 5 mg after 2 days and to the target dose of 10 mg after 2 additional days. Subsequent dose increases should be administered in 5 mg increments. The 30 mg/day dose was not shown to be more efficacious than the 10 mg/day dose. ABILIFY can be administered without regard to meals.  Maintenance Treatment: The efficacy of ABILIFY for the maintenance treatment of schizophrenia in the adolescent population has not been evaluated. While there is no body of evidence available to answer the question of how long the adolescent patient treated with ABILIFY should be maintained on the drug, maintenance efficacy can be extrapolated from adult data along with comparisons of aripiprazole pharmacokinetic parameters in adult and pediatric patients. Thus, it is generally recommended that responding patients be continued beyond the acute response, but at the lowest dose needed to maintain remission. Patients should be periodically reassessed to determine the need for maintenance treatment. Switching from Other Antipsychotics There are no systematically collected data to specifically address switching patients with schizophrenia from other antipsychotics to ABILIFY or concerning concomitant administration with other antipsychotics. While immediate discontinuation of the previous antipsychotic treatment may be acceptable for some patients with schizophrenia, more gradual discontinuation may be most appropriate for others. In all cases, the period of overlapping antipsychotic administration should be minimized. Bipolar I Disorder: Acute Treatment of Manic and Mixed Episodes: Adults: The recommended starting dose in adults is 15 mg given once daily as monotherapy and 10 mg to 15 mg given once daily as adjunctive therapy with lithium or valproate. ABILIFY can be given without regard to meals. The recommended target dose of ABILIFY is 15 mg/day, as monotherapy or as adjunctive therapy with lithium or valproate. The dose may be increased to 30 mg/day based on clinical response.  Pediatrics: The recommended starting dose in pediatric patients (10 to 17 years) as monotherapy is 2 mg/day, with titration to 5 mg/day after 2 days, and a target dose of 10 mg/day after 2 additional days. Recommended dosing as adjunctive therapy to lithium or valproate is the same. Maintenance Treatment: The recommended dose for maintenance treatment, whether as monotherapy or as adjunctive therapy, is the same dose needed to stabilize patients during acute treatment, both for adult and pediatric patients. Adjunctive Treatment of Major Depressive Disorder: Adults Dose Selection: The recommended starting dose for ABILIFY as adjunctive treatment for patients already taking an antidepressant is 2 mg/day to 5 mg/day. The efficacy of ABILIFY as an adjunctive therapy for major depressive disorder was established within a dose range of 2 mg/day to 15 mg/day.  Maintenance Treatment: The efficacy of ABILIFY for the adjunctive maintenance treatment of major depressive disorder has not been evaluated. While there is no body of evidence available to answer the question of how long the patient treated with ABILIFY should be maintained, patients should be periodically reassessed to determine the continued need for maintenance treatment. Irritability Associated with Autistic Disorder: Pediatric Patients Dose Selection: The efficacy of aripiprazole has been established in the treatment of pediatric patients 6 to 17 years of age with irritability associated with autistic disorder at doses of 5 mg/day to 15 mg/day. The dosage of ABILIFY should be individualized according to tolerability and response. Dosing should be initiated at 2 mg/day. The dose should be increased to 5 mg/day, with subsequent increases to 10 mg/day or 15 mg/day if needed. Maintenance Treatment: The efficacy of ABILIFY for the maintenance treatment of irritability associated with autistic disorder has not been evaluated. While there is no body of evidence available to answer the question of how long the patient treated with ABILIFY should be maintained, patients should be periodically reassessed to determine the continued need for maintenance treatment. Tourette’s Disorder: Pediatric Patients (6 to 18 years): The recommended dosage range for Tourette’s Disorder is 5 to 20 mg/day. For patients weighing less than 50 kg, dosing should be initiated at 2 mg/day with a target dose of 5 mg/day after 2 days. The dose can be increased to 10 mg/day in patients who do not achieve optimal control of tics. Dosage adjustments should occur gradually at intervals of no less than 1 week. For patients weighing 50 kg or more, dosing should be initiated at 2 mg/day for 2 days, and then increased to 5 mg/day for 5 days, with a target dose of 10 mg/day on day 8. The dose can be increased up to 20 mg/day for patients who do not achieve optimal control of tics. Dosage adjustments should occur gradually in increments of 5 mg/day at intervals of no less than 1 week. Patients should be periodically reassessed to determine the continued need for maintenance treatment. Agitation Associated with Schizophrenia or Bipolar Mania (Intramuscular Injection): Adults: The recommended dose in these patients is 9.75 mg. The recommended dosage range is 5.25 to 15 mg. No additional benefit was demonstrated for 15 mg compared to 9.75 mg. A lower dose of 5.25 mg may be considered when clinical factors warrant. If agitation warranting a second dose persists following the initial dose, cumulative doses up to a total of 30 mg/day may be given. However, the efficacy of repeated doses of ABILIFY injection in agitated patients has not been systematically evaluated in controlled clinical trials. The safety of total daily doses greater than 30 mg or injections given more frequently than every 2 hours have not been adequately evaluated in clinical trials. If ongoing ABILIFY therapy is clinically indicated, oral ABILIFY in a range of 10 to 30 mg/day should replace ABILIFY injection as soon as possible. Administration of ABILIFY Injection: To administer ABILIFY Injection, draw up the required volume of solution into the syringe as shown in Table 1. Discard any unused portion. TABLE 1 Dosing of Oral Solution: The oral solution can be substituted for tablets on a mg-per-mg basis up to the 25 mg dose level. Patients receiving 30 mg tablets should receive 25 mg of the solution. Dosing of Orally Disintegrating Tablets: The dosing for ABILIFY Orally Disintegrating Tablets is the same as for the oral tablets.",
+            "special_populations": null,
+            "pgx": "Dosage Adjustments for Cytochrome P450 Considerations: Dosage adjustments are recommended in patients who are known CYP2D6 poor metabolizers and in patients taking concomitant CYP3A4 inhibitors or CYP2D6 inhibitors or strong CYP3A4 inducers (see Table 2). When the coadministered drug is withdrawn from the combination therapy, ABILIFY dosage should then be adjusted to its original level. When the coadministered CYP3A4 inducer is withdrawn, ABILIFY dosage should be reduced to the original level over 1 to 2 weeks. Patients who may be receiving a combination of strong, moderate, and weak inhibitors of CYP3A4 and CYP2D6 (e.g., a strong CYP3A4 inhibitor and a moderate CYP2D6 inhibitor or a moderate CYP3A4 inhibitor with a moderate CYP2D6 inhibitor), the dosing may be reduced to one-quarter (25%) of the usual dose initially and then adjusted to achieve a favorable clinical response. TABLE 2"
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": "Dosage adjustment for patients taking aripiprazole concomitantly with strong CYP3A4 inhibitors: When concomitant administration of aripiprazole with strong CYP3A4 inhibitors such as ketoconazole or clarithromycin is indicated, the aripiprazole dose should be reduced to one-half of the usual dose. When the CYP3A4 inhibitor is withdrawn from the combination therapy, the aripiprazole dose should then be increased. Dosage adjustment for patients taking aripiprazole concomitantly with potential CYP2D6 inhibitors: When concomitant administration of potential CYP2D6 inhibitors such as quinidine, fluoxetine, or paroxetine with aripiprazole occurs, aripiprazole dose should be reduced at least to one-half of its normal dose. When the CYP2D6 inhibitor is withdrawn from the combination therapy, the aripiprazole dose should then be increased . When adjunctive ABILIFY is administered to patients with major depressive disorder, ABILIFY should be administered without dosage adjustment. Dosing recommendation in patients taking aripiprazole concomitantly with strong CYP3A4 and CYP2D6 inhibitors:            When concomitant administration of aripiprazole with strong inhibitors of CYP3A4 (such as ketoconazole or clarithromycin) and CYP2D6 (such as quinidine, fluoxetine, or paroxetine) is indicated, the aripiprazole dose should be reduced to one-quarter (25%) of the usual dose. When the CYP3A4 and/or CYP2D6 inhibitor is withdrawn from the combination therapy, the aripiprazole dose should be increased. Dosing recommendation in patients taking aripiprazole concomitantly with strong, moderate, or weak inhibitors of CYP3A4 and CYP2D6: Patients who may be receiving a combination of strong, moderate, and weak inhibitors of CYP3A4 and CYP2D6 (eg, a potent CYP3A4 inhibitor and a moderate CYP2D6 inhibitor or a moderate CYP3A4 inhibitor with a moderate CYP2D6 inhibitor), the dosing may be reduced to one-quarter (25%) of the usual dose initially and then adjusted to achieve a favorable clinical response. Dosing recommendation in patients who are classified as CYP2D6 poor metabolizers (PM): The aripiprazole dose in PM patients should initially be reduced to one-half (50%) of the usual dose and then adjusted to achieve a favorable clinical response. The dose of aripiprazole for PM patients who are administered a strong CYP3A4 inhibitor should be reduced to one-quarter (25%) of the usual dose. Dosage adjustment for patients taking potential CYP3A4 inducers: When a potential CYP3A4 inducer such as carbamazepine is added to aripiprazole therapy, the aripiprazole dose should be doubled. Additional dose increases should be based on clinical evaluation. When the CYP3A4 inducer is withdrawn from the combination therapy, the aripiprazole dose should be reduced to 10 mg to 15 mg.",
+            "special_populations": "CYP2D6 Poor Metabolizers: Dosage adjustment is recommended in known CYP2D6 poor metabolizers due to high aripiprazole concentrations. Approximately 8% of Caucasians and 3–8% of Black/African Americans cannot metabolize CYP2D6 substrates and are classified as poor metabolizers (PM) ",
+            "ddis": "table 25; Drugs Having No Clinically Important Interactions with ABILIFY: Based on pharmacokinetic studies, no dosage adjustment of ABILIFY is required when administered concomitantly with famotidine, valproate, lithium, lorazepam. In addition, no dosage adjustment is necessary for substrates of CYP2D6 (e.g., dextromethorphan, fluoxetine, paroxetine, or venlafaxine), CYP2C9 (e.g., warfarin), CYP2C19 (e.g., omeprazole, warfarin, escitalopram), or CYP3A4 (e.g., dextromethorphan) when co-administered with ABILIFY. Additionally, no dosage adjustment is necessary for valproate, lithium, lamotrigine, lorazepam, or sertraline when co-administered with ABILIFY.",
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": ["CYP3A4 substrate", "CYP2D6 substrate", "D2 receptor substrate"]
+    },
+    {
+        "generic_name": "aripiprazole lauroxil",
+        "brand_name": "aristada",
+        "pharmGKB_ID": "PA166161216",
+        "pharmacokinetics": {
+            "overview": "ARISTADA is a prodrug of aripiprazole and its activity is primarily due to aripiprazole, and to a lesser extent dehydro-aripiprazole (major metabolite of aripiprazole), which has been shown to have affinities for D 2 receptors similar to aripiprazole and represents 30-40% of the aripiprazole exposure in plasma.",
+            "absorption": "After single intramuscular injection the appearance of aripiprazole in the systemic circulation starts from 5 to 6 days and continues to be released for an additional 36 days. Aripiprazole concentrations increase with consecutive doses of ARISTADA and reach steady-state four months following treatment initiation. The concentration-time course of dehydro-aripiprazole followed that of aripiprazole. With the addition of a single intramuscular injection of ARISTADA INITIO and 30 mg oral aripiprazole at the time of the first ARISTADA dose, aripiprazole concentrations reach relevant levels within 4 days. Similarly, with the addition of the oral supplementation for 21 days at the time of the first ARISTADA dose, aripiprazole concentrations reach relevant levels within 4 days. Aripiprazole exposure was similar for deltoid and gluteal intramuscular injections of 441 mg ARISTADA, thus are interchangeable. Administration of 882 mg every 6 weeks or 1064 mg every 2 months results in plasma aripiprazole concentrations that were similar to exposure with 662 mg monthly and are within the range provided by doses of 441 mg monthly and 882 mg monthly. The doses of 441 mg monthly and 882 monthly showed a similar clinical response to each other.",
+            "distribution": "Based on population pharmacokinetic analysis, the apparent volume of distribution of aripiprazole following intramuscular injection of ARISTADA was 268 L, indicating extensive extravascular distribution following absorption. At therapeutic concentrations, aripiprazole and its major metabolite are greater than 99% bound to serum proteins, primarily to albumin. In healthy human volunteers administered 0.5 mg/day to 30 mg/day oral aripiprazole for 14 days, there was dose-dependent D 2 receptor occupancy indicating brain penetration of aripiprazole in humans.",
+            "elimination": "Metabolism: The biotransformation of ARISTADA likely involves enzyme-mediated hydrolysis to form N-hydroxymethyl-aripiprazole, which subsequently undergoes hydrolysis to aripiprazole. Elimination of aripiprazole is mainly through hepatic metabolism involving CYP3A4 and CYP2D6. Excretion: The mean aripiprazole terminal elimination half-life ranged from 53.9 days to 57.2 days after monthly, every 6-week and every 2 month injections of ARISTADA. The significantly longer aripiprazole apparent half-life compared to oral aripiprazole (mean 75 hours) is attributed to the dissolution and formation rate-limited elimination of aripiprazole following ARISTADA administration.",
+            "special_populations": "A population pharmacokinetic analysis showed no effect of sex, race or smoking on ARISTADA pharmacokinetics.",
+            "ddi_studies": "No specific drug interaction studies have been performed with ARISTADA. The drug interaction data provided below is obtained from studies with oral aripiprazole. Based on simulation, a 4.5-fold increase in mean C max and AUC values at steady-state is expected when extensive metabolizers of CYP2D6 are administered with both strong CYP2D6 and CYP3A4 inhibitors. After oral administration, a 3-fold increase in mean C max and AUC values at steady-state is expected in poor metabolizers of CYP2D6 administered with strong CYP3A4 inhibitors."
+        },
+        "dosage": {
+            "dosing": "• Administer ARISTADA by intramuscular injection in the deltoid (441 mg dose only) or gluteal (441 mg, 662 mg, 882 mg or 1064 mg) muscle by a healthcare professional. • For patients naïve to aripiprazole, establish tolerability with oral aripiprazole prior to initiating treatment with ARISTADA. • There are two options for initiating treatment with ARISTADA: ○ Option #1: Administer one injection of 675 mg of ARISTADA INITIO ® and one 30 mg dose of oral aripiprazole in conjunction with the first ARISTADA injection. ○ Option #2: Administer 21 consecutive days of oral aripiprazole in conjunction with the first ARISTADA injection. • ARISTADA can be initiated at a dose of 441 mg, 662 mg or 882 mg administered monthly, 882 mg dose every 6 weeks, or 1064 mg dose every 2 months. • Dose adjustments are required for 1) known CYP2D6 poor metabolizers and 2) for patients taking CYP3A4 inhibitors, CYP2D6 inhibitors, or CYP3A4 inducers for more than 2 weeks. Recommended Dosage: ARISTADA is only to be administered as an intramuscular injection by a healthcare professional. For patients who have never taken aripiprazole, establish tolerability with oral aripiprazole prior to initiating treatment with ARISTADA. Due to the half-life of oral aripiprazole, it may take up to 2 weeks to fully assess tolerability. There are two ways to initiate treatment with ARISTADA:Option #1: Administer one intramuscular injection of ARISTADA INITIO 675 mg (in either the deltoid or gluteal muscle) and one dose of oral aripiprazole 30 mg in conjunction with the first ARISTADA injection. The first ARISTADA injection may be administered on the same day as ARISTADA INITIO or up to 10 days thereafter. Avoid injecting both ARISTADA INITIO and ARISTADA concomitantly into the same deltoid or gluteal muscle. Option #2: Administer 21 consecutive days of oral aripiprazole in conjunction with the first ARISTADA injection. Depending on individual patient's needs, treatment with ARISTADA can be initiated at a dose of 441 mg, 662 mg or 882 mg administered monthly, 882 mg administered every 6 weeks or 1064 mg administered every 2 months. The 441 mg, 662 mg, 882 mg and 1064 mg doses correspond to 300 mg, 450 mg, 600 mg and 724 mg of aripiprazole, respectively. Table 1; Use the following ARISTADA doses for patients who are stabilized on oral aripiprazole, as shown in Table 2. Table 2; In conjunction with the first ARISTADA injection, administer a single injection of ARISTADA INITIO and one dose of oral aripiprazole 30 mg, or continue treatment with oral aripiprazole for 21 consecutive days. Adjust the ARISTADA dose as needed. When making dose and dosing interval adjustments, consider the pharmacokinetics and prolonged-release characteristics of ARISTADA.",
+            "special_populations": null,
+            "pgx": "Dose adjustments are required for 1) known CYP2D6 poor metabolizers and 2) for patients taking CYP3A4 inhibitors, CYP2D6 inhibitors, or CYP3A4 inducers for more than 2 weeks. See table 4"
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": "Dose Adjustments for CYP450 Considerations: refer to the prescribing information for oral aripiprazole for recommendations regarding dosage adjustments due to drug interactions, for the first 21 days when the patient is taking 21 days of oral aripiprazole concomitantly with the first dose of ARISTADA. Avoid initiating ARISTADA treatment with ARISTADA INITIO in patients requiring dose adjustments. Once stabilized on ARISTADA, refer to the dosing recommendations below for patients taking strong CYP2D6 inhibitors, strong CYP3A4 inhibitors, or strong CYP3A4 inducers: • No dosage changes recommended for ARISTADA, if CYP450 modulators are added for less than 2 weeks. • Make dose changes to ARISTADA if CYP450 modulators are added for greater than 2 weeks (see Table 4 ). Table 4",
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": ["D2 receptor substrate", "CYP3A4 substrate", "CYP2D6 substrate"]
+    },
+    {
+        "generic_name": "atomoxetine",
+        "brand_name": "strattera",
+        "pharmGKB_ID": "PA134688071",
+        "pharmacokinetics": {
+            "overview": "Atomoxetine is well-absorbed after oral administration and is minimally affected by food. It is eliminated primarily by oxidative metabolism through the cytochrome P450 2D6 (CYP2D6) enzymatic pathway and subsequent glucuronidation. Atomoxetine has a half-life of about 5 hours. A fraction of the population (about 7% of Caucasians and 2% of African Americans) are poor metabolizers (PMs) of CYP2D6 metabolized drugs. These individuals have reduced activity in this pathway resulting in 10-fold higher AUCs, 5-fold higher peak plasma concentrations, and slower elimination (plasma half-life of about 24 hours) of atomoxetine compared with people with normal activity [extensive metabolizers (EMs)]. Drugs that inhibit CYP2D6, such as fluoxetine, paroxetine, and quinidine, cause similar increases in exposure.",
+            "absorption": "Atomoxetine is rapidly absorbed after oral administration, with absolute bioavailability of about 63% in EMs and 94% in PMs. Maximal plasma concentrations (C max ) are reached approximately 1 to 2 hours after dosing. STRATTERA can be administered with or without food. Administration of STRATTERA with a standard high-fat meal in adults did not affect the extent of oral absorption of atomoxetine (AUC), but did decrease the rate of absorption, resulting in a 37% lower C max , and delayed T max by 3 hours. In clinical trials with children and adolescents, administration of STRATTERA with food resulted in a 9% lower C max.",
+            "distribution": "The steady-state volume of distribution after intravenous administration is 0.85 L/kg indicating that atomoxetine distributes primarily into total body water. Volume of distribution is similar across the patient weight range after normalizing for body weight. At therapeutic concentrations, 98% of atomoxetine in plasma is bound to protein, primarily albumin.",
+            "elimination": "Atomoxetine is metabolized primarily through the CYP2D6 enzymatic pathway. People with reduced activity in this pathway (PMs) have higher plasma concentrations of atomoxetine compared with people with normal activity (EMs). For PMs, AUC of atomoxetine is approximately 10-fold and C ss,max is about 5-fold greater than EMs. Laboratory tests are available to identify CYP2D6 PMs. Coadministration of STRATTERA with potent inhibitors of CYP2D6, such as fluoxetine, paroxetine, or quinidine, results in a substantial increase in atomoxetine plasma exposure, and dosing adjustment may be necessary. Atomoxetine did not inhibit or induce the CYP2D6 pathway. The major oxidative metabolite formed, regardless of CYP2D6 status, is 4-hydroxyatomoxetine, which is glucuronidated. 4-Hydroxyatomoxetine is equipotent to atomoxetine as an inhibitor of the norepinephrine transporter but circulates in plasma at much lower concentrations (1% of atomoxetine concentration in EMs and 0.1% of atomoxetine concentration in PMs). 4-Hydroxyatomoxetine is primarily formed by CYP2D6, but in PMs, 4-hydroxyatomoxetine is formed at a slower rate by several other cytochrome P450 enzymes. N-Desmethylatomoxetine is formed by CYP2C19 and other cytochrome P450 enzymes, but has substantially less pharmacological activity compared with atomoxetine and circulates in plasma at lower concentrations (5% of atomoxetine concentration in EMs and 45% of atomoxetine concentration in PMs). Mean apparent plasma clearance of atomoxetine after oral administration in adult EMs is 0.35 L/hr/kg and the mean half-life is 5.2 hours. Following oral administration of atomoxetine to PMs, mean apparent plasma clearance is 0.03 L/hr/kg and mean half-life is 21.6 hours. For PMs, AUC of atomoxetine is approximately 10-fold and C ss,max is about 5-fold greater than EMs. The elimination half-life of 4-hydroxyatomoxetine is similar to that of N-desmethylatomoxetine (6 to 8 hours) in EM subjects, while the half-life of N-desmethylatomoxetine is much longer in PM subjects (34 to 40 hours).  Atomoxetine is excreted primarily as 4-hydroxyatomoxetine- O -glucuronide, mainly in the urine (greater than 80% of the dose) and to a lesser extent in the feces (less than 17% of the dose). Only a small fraction of the STRATTERA dose is excreted as unchanged atomoxetine (less than 3% of the dose), indicating extensive biotransformation.",
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": "see dosing table; Acute Treatment: Dosing of children and adolescents up to 70 kg body weight — STRATTERA should be initiated at a total daily dose of approximately 0.5 mg/kg and increased after a minimum of 3 days to a target total daily dose of approximately 1.2 mg/kg administered either as a single daily dose in the morning or as evenly divided doses in the morning and late afternoon/early evening. No additional benefit has been demonstrated for doses higher than 1.2 mg/kg/day. The total daily dose in children and adolescents should not exceed 1.4 mg/kg or 100 mg, whichever is less. Dosing of children and adolescents over 70 kg body weight and adults — STRATTERA should be initiated at a total daily dose of 40 mg and increased after a minimum of 3 days to a target total daily dose of approximately 80 mg administered either as a single daily dose in the morning or as evenly divided doses in the morning and late afternoon/early evening. After 2 to 4 additional weeks, the dose may be increased to a maximum of 100 mg in patients who have not achieved an optimal response. There are no data that support increased effectiveness at higher doses. The maximum recommended total daily dose in children and adolescents over 70 kg and adults is 100 mg. Maintenance/Extended Treatment: It is generally agreed that pharmacological treatment of ADHD may be needed for extended periods. The benefit of maintaining pediatric patients (ages 6-15 years) with ADHD on STRATTERA after achieving a response in a dose range of 1.2 to 1.8 mg/kg/day was demonstrated in a controlled trial. Patients assigned to STRATTERA in the maintenance phase were generally continued on the same dose used to achieve a response in the open label phase. The physician who elects to use STRATTERA for extended periods should periodically reevaluate the long-term usefulness of the drug for the individual patient.",
+            "special_populations": "Dosing adjustment for hepatically impaired patients — For those ADHD patients who have hepatic insufficiency (HI), dosage adjustment is recommended as follows: For patients with moderate HI (Child-Pugh Class B), initial and target doses should be reduced to 50% of the normal dose (for patients without HI). For patients with severe HI (Child-Pugh Class C), initial dose and target doses should be reduced to 25% of normal. Dosing adjustment for use with a strong CYP2D6 inhibitor or in patients who are known to be CYP2D6 PMs — In children and adolescents up to 70 kg body weight administered strong CYP2D6 inhibitors, e.g., paroxetine, fluoxetine, and quinidine, or in patients who are known to be CYP2D6 PMs, STRATTERA should be initiated at 0.5 mg/kg/day and only increased to the usual target dose of 1.2 mg/kg/day if symptoms fail to improve after 4 weeks and the initial dose is well tolerated. In children and adolescents over 70 kg body weight and adults administered strong CYP2D6 inhibitors, e.g., paroxetine, fluoxetine, and quinidine, STRATTERA should be initiated at 40 mg/day and only increased to the usual target dose of 80 mg/day if symptoms fail to improve after 4 weeks and the initial dose is well tolerated.",
+            "pgx": "Dosing adjustment for use with a strong CYP2D6 inhibitor or in patients who are known to be CYP2D6 PMs — In children and adolescents up to 70 kg body weight administered strong CYP2D6 inhibitors, e.g., paroxetine, fluoxetine, and quinidine, or in patients who are known to be CYP2D6 PMs, STRATTERA should be initiated at 0.5 mg/kg/day and only increased to the usual target dose of 1.2 mg/kg/day if symptoms fail to improve after 4 weeks and the initial dose is well tolerated. In children and adolescents over 70 kg body weight and adults administered strong CYP2D6 inhibitors, e.g., paroxetine, fluoxetine, and quinidine, STRATTERA should be initiated at 40 mg/day and only increased to the usual target dose of 80 mg/day if symptoms fail to improve after 4 weeks and the initial dose is well tolerated."
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": "Dosing adjustment for use with a strong CYP2D6 inhibitor or in patients who are known to be CYP2D6 PMs — In children and adolescents up to 70 kg body weight administered strong CYP2D6 inhibitors, e.g., paroxetine, fluoxetine, and quinidine, or in patients who are known to be CYP2D6 PMs, STRATTERA should be initiated at 0.5 mg/kg/day and only increased to the usual target dose of 1.2 mg/kg/day if symptoms fail to improve after 4 weeks and the initial dose is well tolerated. In children and adolescents over 70 kg body weight and adults administered strong CYP2D6 inhibitors, e.g., paroxetine, fluoxetine, and quinidine, STRATTERA should be initiated at 40 mg/day and only increased to the usual target dose of 80 mg/day if symptoms fail to improve after 4 weeks and the initial dose is well tolerated.",
+            "special_populations": "Ethnic Origin: ethnic origin did not influence atomoxetine disposition (except that PMs are more common in Caucasians).",
+            "ddis": "Effect of CYP2D6 Inhibitors on Atomoxetine: In extensive metabolizers (EMs), inhibitors of CYP2D6 (e.g., paroxetine, fluoxetine, and quinidine) increase atomoxetine steady-state plasma concentrations to exposures similar to those observed in poor metabolizers (PMs). In EM individuals treated with paroxetine or fluoxetine, the AUC of atomoxetine is approximately 6- to 8-fold and Css, max is about 3- to 4-fold greater than atomoxetine alone. In vitro studies suggest that coadministration of cytochrome P450 inhibitors to PMs will not increase the plasma concentrations of atomoxetine. Effect of Atomoxetine on P450 Enzymes: Atomoxetine did not cause clinically important inhibition or induction of cytochrome P450 enzymes, including CYP1A2, CYP3A, CYP2D6, and CYP2C9. CYP3A Substrate (e.g., Midazolam) — Coadministration of STRATTERA (60 mg BID for 12 days) with midazolam, a model compound for CYP3A4 metabolized drugs (single dose of 5 mg), resulted in 15% increase in AUC of midazolam. No dose adjustment is recommended for drugs metabolized by CYP3A. CYP2D6 Substrate (e.g., Desipramine) — Coadministration of STRATTERA (40 or 60 mg BID for 13 days) with desipramine, a model compound for CYP2D6 metabolized drugs (single dose of 50 mg), did not alter the pharmacokinetics of desipramine. No dose adjustment is recommended for drugs metabolized by CYP2D6.  Drugs Highly Bound to Plasma Protein: In vitro drug-displacement studies were conducted with atomoxetine and other highly-bound drugs at therapeutic concentrations. Atomoxetine did not affect the binding of warfarin, acetylsalicylic acid, phenytoin, or diazepam to human albumin. Similarly, these compounds did not affect the binding of atomoxetine to human albumin.",
+            "lab_tests": null,
+            "precautions": "Concomitant Use of Potent CYP2D6 Inhibitors or Use in Patients who are known to be CYP2D6 PMs: Atomoxetine is primarily metabolized by the CYP2D6 pathway to 4-hydroxyatomoxetine. Dosage adjustment of STRATTERA may be necessary when coadministered with potent CYP2D6 inhibitors (e.g., paroxetine, fluoxetine, and quinidine) or when administered to CYP2D6 PMs."
+        },
+        "pgx_moa": "CYP2D6 substrate"
+    },
+    {
+        "generic_name": "azathioprine",
+        "brand_name": "imuran",
+        "pharmGKB_ID": "PA448515",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": "The absorption of azathioprine is incomplete and variable. The median (range) absolute bioavailability of 6-MP after administration of azathioprine 50 mg is 47% (27 – 80%). The extent of absorption of azathioprine is similar across the gastrointestinal tract, including the stomach, jejunum, and cecum. However, the extent of 6-MP absorption, after azathioprine administration is variable and differs between the sites of absorption, with the highest extent of absorption in the jejunum, followed by the stomach and then the cecum. Although there are no food effect studies with azathioprine, pharmacokinetic studies with 6-MP have been conducted that are relevant to azathioprine. The mean relative bioavailability of 6 MP was approximately 26% lower following administration with food and milk compared to an overnight fast. 6-MP is not stable in milk due to the presence of xanthine oxidase (30% degradation within 30 minutes). Azathioprine should be administered at least 1 hour before or 3 hours after food or milk.",
+            "distribution": "The volume of distribution at steady state (Vdss) of azathioprine is unknown. The mean (± SD) apparent Vdss of 6 MP is 0.9 (±0.8) L/kg, although this may be an underestimate because 6 MP is cleared throughout the body (and not just in the liver). Concentrations of 6 MP in cerebrospinal fluid (CSF) are low or negligible after IV or oral administration of 6-MP.",
+            "elimination": "Metabolism: Azathioprine is rapidly broken down in vivo by glutathione-S-transferase into 6-MP and a methylnitroimidazole moiety. The 6-MP readily crosses cell membranes and is extensively metabolized by many multi-step pathways to active and inactive metabolites, with no one enzyme predominating. Because of the complex metabolism, inhibition of one enzyme does not explain all cases of lack of efficacy and/or pronounced myelosuppression. The predominant enzymes responsible for the metabolism of 6-MP or its downstream metabolites are: the polymorphic enzyme thiopurine S-methyltransferase (TPMT, xanthine oxidase, inosine monophosphate dehydrogenase (IMPDH), and hypoxanthine guanine phosphribosyltransferase (HPRT). Additional enzymes involved in the formation of active and inactivemetabolites are: guanosine monophosphate synthetase (GMPS, which form TGNs) and inosine triphosphate pyrophosphatase (ITPase). Azathioprine itself is also metabolized by aldehyde oxidase to form 8-hydroxy azathioprine, which may be active. There are also multiple inactive metabolites formed via other pathways. There is evidence that polymorphisms in the genes encoding the different enzyme systems involved with metabolism of azathioprine may predict adverse drug reactions to azathioprine therapy. Thiopurine S-Methyl Transferase (TPMT):  TPMT activity is inversely related to red blood cell 6-MP derived thioguaninenucleotide concentration, with higher thioguanine nucleotide concentrations resulting in greater reductions in white blood cell and neutrophil counts. Individuals with TPMT deficiency develop very high cytotoxic thioguanine nucleotide concentrations. Genotypic testing can determine the allelic pattern of a patient. Currently, 3 alleles—TPMT*2, TPMT*3A and TPMT*3C—account for about 95% of individuals with reduced levels of TPMT activity. Approximately 0.3% (1:300) of patients have two non-functional alleles (homozygous-deficient) of the TPMT gene and have little or no detectable enzyme activity. Approximately 10% of patients have one TPMT non-functional allele (heterozygous) leading to low or intermediate TPMT activity and 90% of individuals have normal TPMT activity with two functional alleles. There may also be a group of approximately 2% who have very high TPMT activity. Phenotypic testing determines the level of thiopurine nucleotides or TPMT activity in red blood cells and can also be informative. Elimination: After oral administration of 100mg 35S-azathioprine, 50% of the radioactivity was excreted in the urine and 12% in the faeces after 24 hours. In the urine, the major compound was the inactive oxidised metabolite thiouric acid. Less than 2% was excreted in the urine as azathioprine or 6-MP. Azathioprine has a high extraction ratio with a total clearance greater than 3L/min in normal volunteers. There are no data on the renal clearance or half-life of azathioprine. The renal clearance of 6-MP and the half-life of 6-MP are 191 mL/ min/ m2 and 0.9 hr respectively.",
+            "special_populations": "Elderly: No specific studies have been carried out in the elderly. Renal impairment: Studies with azathioprine have shown no difference in 6 MP pharmacokinetics in uremic patients compared to renal transplant patients. Since little is known about the active metabolites of azathioprine in renal impairment, consideration should be given to reducing the dosage in patients with impaired renal function. Azathioprine and/or its metabolites are eliminated by haemodialysis, with approximately 45% of radioactive metabolites eliminated during dialysis of 8 hours. Hepatic impairment: A study with azathioprine was performed in three groups of renal transplant patients: those without liver disease, those with hepatic impairment (but no cirrhosis) and those with hepatic impairment and cirrhosis. The study demonstrated that 6-mercaptopurine exposure was 1.6 times higher in patients with hepatic impairment (but no cirrhosis) and 6 times higher in patients with hepatic impairment and cirrhosis, compared to patients without liver disease. Therefore, consideration should be given to reducing the dosage in patients with impaired hepatic function. Overweight children: In a US clinical study, 18 children (aged 3 to 14 years)were evenly divided into two groups; either a weight to height ratio above or below the 75th percentile. Each child was on maintenance treatment of 6-MP and the dosage was calculated based on their body surface area. The mean AUC of 6-MP in the group above the 75th percentile was 2.4 times lower than that for the group below the 75th percentile. Therefore, children considered to be overweight may require azathioprine doses at the higher end of the dose range and close monitoring of response to treatment is recommended.",
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": "Renal Homotransplantation: The dose of azathioprine tablets required to prevent rejection and minimize toxicity will vary with individual patients; this necessitates careful management. The initial dose is usually 3 to 5 mg/kg daily, beginning at the time of transplant. Azathioprine tablets are usually given as a single daily dose on the day of, and in a minority of cases 1 to 3 days before, transplantation. Dose reduction to maintenance levels of 1 to 3 mg/kg daily is usually possible. The dose of azathioprine tablets should not be increased to toxic levels because of threatened rejection. Discontinuation may be necessary for severe hematologic or other toxicity, even if rejection of the homograft may be a consequence of drug withdrawal. Rheumatoid Arthritis: Azathioprine tablets are usually given on a daily basis. The initial dose should be approximately 1.0 mg/kg (50 to 100 mg) given as a single dose or on a twice-daily schedule. The dose may be increased, beginning at 6 to 8 weeks and thereafter by steps at 4-week intervals, if there are no serious toxicities and if initial response is unsatisfactory. Dose increments should be 0.5 mg/kg daily, up to a maximum dose of 2.5 mg/kg per day. Therapeutic response occurs after several weeks of treatment, usually 6 to 8; an adequate trial should be a minimum of 12 weeks. Patients not improved after 12 weeks can be considered refractory. Azathioprine tablets may be continued long-term in patients with clinical response, but patients should be monitored carefully, and gradual dosage reduction should be attempted to reduce risk of toxicities. Maintenance therapy should be at the lowest effective dose, and the dose given can be lowered decrementally with changes of 0.5 mg/kg or approximately 25 mg daily every 4 weeks while other therapy is kept constant. The optimum duration of maintenance azathioprine tablets has not been determined. Azathioprine tablets can be discontinued abruptly, but delayed effects are possible. Use in Renal Dysfunction: Relatively oliguric patients, especially those with tubular necrosis in the immediate postcadaveric transplant period, may have delayed clearance of azathioprine tablets or its metabolites, may be particularly sensitive to this drug, and are usually given lower doses.",
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": "Consider alternative therapy in patients with homozygous TPMT or NUDT15 deficiency and reduced dosages in patients with heterozygous deficiency. Because of the risk of increased toxicity, dosage reduction is recommended in patients known to have heterozygous deficiency of TPMT or NUDT15. Patients who are heterozygous for both TPMT and NUDT15 deficiency may require more substantial dosage reductions.",
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": "TPMT TESTING CANNOT SUBSTITUTE FOR COMPLETE BLOOD COUNT (CBC) MONITORING IN PATIENTS RECEIVING AZATHIOPRINE TABLETS. TPMT genotyping or phenotyping can be used to identify patients with absent or reduced TPMT activity. Patients with low or absent TPMT activity are at an increased risk of developing severe, life-threatening myelotoxicity from azathioprine tablets if conventional doses are given. Physicians may consider alternative therapies for patients who have low or absent TPMT activity (homozygous for non-functional alleles). Azathioprine tablets should be administered with caution to patients having one non-functional allele (heterozygous) who are at risk for reduced TPMT activity that may lead to toxicity if conventional doses are given. Dosage reduction is recommended in patients with reduced TPMT activity. Early drug discontinuation may be considered in patients with abnormal CBC results that do not respond to dose reduction. TPMT Testing: It is recommended that consideration be given to either genotype or phenotype patients for TPMT. Phenotyping and genotyping methods are commercially available. The most common non-functional alleles associated with reduced levels of TPMT activity are TPMT*2, TPMT*3A and TPMT*3C. Patients with two nonfunctional alleles (homozygous) have low or absent TPMT activity and those with one non-functional allele (heterozygous) have intermediate activity. Accurate phenotyping (red blood cell TPMT activity) results are not possible in patients who have received recent blood transfusions. TPMT testing may also be considered in patients with abnormal CBC results that do not respond to dose reduction. Early drug discontinuation in these patients is advisable. TPMT genotyping or phenotyping can help identify patients with low or absent TPMT activity (homozygous for non-functional alleles) who are at increased risk for severe, life-threatening myelosuppression from IMURAN. Death associated with pancytopenia has been reported in patients with absent TPMT activity receiving azathioprine.",
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "belinostat",
+        "brand_name": "beleodaq",
+        "pharmGKB_ID": "PA165971474",
+        "pharmacokinetics": {
+            "overview": "The pharmacokinetic characteristics of belinostat were analyzed from pooled data from phase 1/2 clinical studies that used doses of belinostat ranging from 150 to 1200 mg/m 2 . The total mean plasma clearance and elimination half-life were 1240 mL/min and 1.1 hours, respectively. The total clearance approximates average hepatic blood flow (1500 mL/min), suggesting high hepatic extraction (clearance being flow dependent).",
+            "absorption": null,
+            "distribution": "The mean belinostat volume of distribution approaches total body water, indicating that belinostat has limited body tissue distribution. In vitro plasma studies have shown that between 92.9% and 95.8% of belinostat is bound to protein in an equilibrium dialysis assay, and was independent of belinostat plasma concentrations from 500 to 25,000 ng/mL.",
+            "elimination": "Metabolism: Belinostat is primarily metabolized by hepatic UGT1A1. Strong UGT1A1 inhibitors are expected to increase exposure to belinostat. Belinostat also undergoes hepatic metabolism by CYP2A6, CYP2C9, and CYP3A4 enzymes to form belinostat amide and belinostat acid. The enzymes responsible for the formation of methyl belinostat and 3-(anilinosulfonyl)-benzenecarboxylic acid, (3-ASBA) are not known. Excretion: Following a single dose of [ 14 C]-labelled belinostat (100 μCi, 1500 mg) administered as a 30-minute intravenous infusion in patients with recurrent or progressive malignancy (N=6), fecal excretion accounted for a mean (± SD) of 9.7% (± 6.5%) of the administered radioactive belinostat dose over 168 hours. The mean (± SD) of the administered radioactive belinostat dose that was excreted in urine over 168 hours was 84.8% (± 9.8%), of which unchanged belinostat accounted for only 1.7%. ",
+            "special_populations": null,
+            "ddi_studies": "In vitro studies showed belinostat and its metabolites (including belinostat glucuronide, belinostat amide, methyl belinostat) inhibited metabolic activities of CYP2C8 and CYP2C9. Other metabolites (3-ASBA and belinostat acid) inhibited CYP2C8. In cancer patients, co-administration of Beleodaq (1,000 mg/m 2 ) and warfarin (5 mg), a known CYP2C9 substrate, did not increase the AUC or C max of either R- or S-warfarin. Belinostat is likely a glycoprotein (P-gp) substrate but is unlikely to inhibit P-gp."
+        },
+        "dosage": {
+            "dosing": "Recommended dosage of Beleodaq is 1,000 mg/m2 administered over 30 minutes by intravenous infusion once daily on days 1-5 of a 21-day cycle. Cycles can be repeated until disease progression or unacceptable toxicity. Treatment discontinuation or interruption with or without dosage reductions by 25% may be needed to manage adverse reactions. Dosing Information: The recommended dosage of Beleodaq is 1,000 mg/m 2 administered over 30 minutes by intravenous infusion once daily on Days 1-5 of a 21-day cycle. Cycles can be repeated every 21 days until disease progression or unacceptable toxicity.",
+            "special_populations": null,
+            "pgx": "Patients with Reduced UGT1A1 Activity Reduce the starting dose of Beleodaq to 750 mg/m 2 in patients known to be homozygous for the UGT1A1*28 allele."
+        },
+        "pharmacogenomics": {
+            "overview": "UGT1A1 activity is reduced in individuals with genetic polymorphisms that lead to reduced enzyme activity such as the UGT1A1*28 polymorphism. Approximately 20% of the black population, 10% of the white population, and 2% of the Asian population are homozygous for the UGT1A1*28 allele. Additional reduced function alleles may be more prevalent in specific populations. Because belinostat is primarily (80 -90%) metabolized by UGT1A1, the clearance of belinostat could be decreased in patients with reduced UGT1A1 activity (e.g., patients with UGT1A1*28 allele). Reduce the starting dose of Beleodaq to 750 mg/m2 in patients known to be homozygous for the UGT1A1*28 allele to minimize dose limiting toxicities.",
+            "dosage": "Patients with Reduced UGT1A1 Activity: Reduce the starting dose of Beleodaq to 750 mg/m 2 in patients known to be homozygous for the UGT1A1*28 allele.",
+            "special_populations": null,
+            "ddis": "UGT1A1 Inhibitors: Belinostat is primarily metabolized by UGT1A1. Avoid concomitant administration of Beleodaq with strong inhibitors of UGT1A1",
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": ["UGT1A1 substrate", "CYP2A6 substrate", "CYP2C9 substrate", "CYP3A4 substrate", "CYP2C8 inhibitor", "CYP2C9 inhibitor"]
+    },
+    {
+        "generic_name": "brexpiprazole",
+        "brand_name": "rexulti",
+        "pharmGKB_ID": "PA166160053",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": "After single-dose administration of REXULTI tablets, the peak plasma brexpiprazole concentrations occurred within 4 hours after administration, and the absolute oral bioavailability was 95%. Brexpiprazole steady-state concentrations were attained within 10 to 12 days of dosing. REXULTI can be administered with or without food. Administration of a 4 mg REXULTI tablet with a standard high-fat meal did not significantly affect the C max or AUC of brexpiprazole. After single and multiple once daily dose administration, brexpiprazole exposure (C max and AUC) increased in proportion to the dose administered. In vitro studies of brexpiprazole did not indicate that brexpiprazole is a substrate of efflux transporters such as MDRI (P-gp) and BCRP.",
+            "distribution": "Distribution: The volume of distribution of brexpiprazole following intravenous administration is high (1.56±0.42 L/kg), indicating extravascular distribution. Brexpiprazole is highly protein bound in plasma (greater than 99%) to serum albumin and α1-acid glycoprotein, and its protein binding is not affected by renal or hepatic impairment. Based on results of in vitro studies, brexpiprazole protein binding is not affected by warfarin, diazepam, or digitoxin.",
+            "elimination": "Metabolism: Based on in vitro metabolism studies of brexpiprazole using recombinant human cytochrome P450 (CYP1A1, 1A2, 2A6, 2B6, 2C8, 2C9, 2C19, 2D6, 2E1, and 3A4), the metabolism of brexpiprazole was shown to be mainly mediated by CYP3A4 and CYP2D6. In vivo brexpiprazole is metabolized primarily by CYP3A4 and CYP2D6 enzymes. After single- and multiple-dose administrations, brexpiprazole and its major metabolite, DM-3411, were the predominant drug moieties in the systemic circulation. At steady-state, DM-3411 represented 23% to 48% of brexpiprazole exposure (AUC) in plasma. DM-3411 is considered not to contribute to the therapeutic effects of brexpiprazole. Based on in vitro data, brexpiprazole showed little to no inhibition of CYP450 isozymes. Excretion: Following a single oral dose of [ 14 C]-labeled brexpiprazole, approximately 25% and 46% of the administered radioactivity was recovered in the urine and feces, respectively. Less than 1% of unchanged brexpiprazole was excreted in the urine, and approximately 14% of the oral dose was recovered unchanged in the feces. Apparent oral clearance of a brexpiprazole oral tablet after once daily administration is 19.8 (±11.4) mL/h/kg. After multiple once daily administration of REXULTI, the terminal elimination half-lives of brexpiprazole and its major metabolite, DM-3411, were 91 hours and 86 hours, respectively.",
+            "special_populations": "Population pharmacokinetic (PK) analysis indicated exposure of brexpiprazole in patients with moderate renal impairment was higher compared to patients with normal renal function.",
+            "ddi_studies": "Based on simulation, a 5.1-fold increase in AUC values at steady-state is expected when extensive metabolizers of CYP2D6 are administered with both strong CYP2D6 and CYP3A4 inhibitors. A 4.8-fold increase in mean AUC values at steady-state is expected in poor metabolizers of CYP2D6 administered with strong CYP3A4 inhibitors."
+        },
+        "dosage": {
+            "dosing": "DOSING TABLE; Indication | Starting Dose | Recommended Dose | Maximum Dose, MDD: 0.5 mg/day or 1 mg/day 2 mg/day 3 mg/day, Schizophrenia: 1 mg/day 2 to 4 mg/day 4 mg/day, Moderate to Severe Hepatic Impairment (Child-Pugh score ≥7): Maximum recommended dosage is 2 mg once daily for patients with MDD and 3 mg once daily for patients with schizophrenia. Moderate, Severe or End-Stage Renal Impairment (CLcr<60 mL/minute): Maximum recommended dosage is 2 mg once daily for patients with MDD and 3 mg once daily for patients with schizophrenia. Known CYP2D6 Poor Metabolizers: Reduce the usual dosage by half.",
+            "special_populations": "Dosage Adjustments for Hepatic Impairment: For patients with moderate to severe hepatic impairment (Child-Pugh score ≥7), the maximum recommended dosage is 2 mg once daily for patients with MDD, and 3 mg once daily for patients with schizophrenia. Dosage Adjustments for Renal Impairment: For patients with moderate, severe or end-stage renal impairment (creatinine clearance CLcr<60 mL/minute), the maximum recommended dosage is 2 mg once daily for patients with MDD and 3 mg once daily for patients with schizophrenia.",
+            "pgx": "DOSING TABLE; Dosage Modifications for CYP2D6 Poor Metabolizers and for Concomitant Use with CYP Inhibitors or Inducers Dosage adjustments are recommended in patients who are known cytochrome P450 (CYP) 2D6 poor metabolizers and in patients taking concomitant CYP3A4 inhibitors or CYP2D6 inhibitors or strong CYP3A4 inducers. If the coadministered drug is discontinued, adjust the REXULTI dosage to its original level. If the coadministered CYP3A4 inducer is discontinued, reduce the REXULTI dosage to the original level over 1 to 2 weeks."
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": "dosing table; Dosage Modifications for CYP2D6 Poor Metabolizers and for Concomitant Use with CYP Inhibitors or Inducers: Dosage adjustments are recommended in patients who are known cytochrome P450 (CYP) 2D6 poor metabolizers and in patients taking concomitant CYP3A4 inhibitors or CYP2D6 inhibitors or strong CYP3A4 inducers. If the coadministered drug is discontinued, adjust the REXULTI dosage to its original level. If the coadministered CYP3A4 inducer is discontinued, reduce the REXULTI dosage to the original level over 1 to 2 weeks.",
+            "special_populations": "CYP2D6 Poor Metabolizers: Dosage adjustment is recommended in known CYP2D6 poor metabolizers, because these patients have higher brexpiprazole concentrations than normal metabolizers of CYP2D6. Approximately 8% of Caucasians and 3–8% of Black/African Americans cannot metabolize CYP2D6 substrates and are classified as poor metabolizers.",
+            "ddis": "table; Drugs Having No Clinically Important Interactions with REXULTI:  Based on pharmacokinetic studies, no dosage adjustment of REXULTI is required when administered concomitantly with CYP2B6 inhibitors (e.g., ticlopidine) or gastric pH modifiers (e.g., omeprazole). Additionally, no dosage adjustment for substrates of CYP2D6 (e.g., dextromethorphan), CYP3A4 (e.g., lovastatin), CYP2B6 (e.g., bupropion), BCRP (e.g., rosuvastatin), or P-gp (e.g., fexofenadine) is required when administered concomitantly with REXULTI.",
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": ["CYP3A4 substrate", "CYP2D6 substrate"]
+    },
+    {
+        "generic_name": "capecitabine",
+        "brand_name": "xeloda",
+        "pharmGKB_ID": "PA448771",
         "pharmacokinetics": {
             "overview": null,
             "absorption": null,
@@ -81,9 +243,9 @@
         "pgx_moa": null
     },
     {
-        "generic_name": null,
-        "brand_name": null,
-        "pharmGKB_ID": null,
+        "generic_name": "celecoxib",
+        "brand_name": "celebrex",
+        "pharmGKB_ID": "PA448871",
         "pharmacokinetics": {
             "overview": null,
             "absorption": null,
@@ -108,9 +270,9 @@
         "pgx_moa": null
     },
     {
-        "generic_name": null,
-        "brand_name": null,
-        "pharmGKB_ID": null,
+        "generic_name": "citalopram",
+        "brand_name": "celexa",
+        "pharmGKB_ID": "PA449015",
         "pharmacokinetics": {
             "overview": null,
             "absorption": null,
@@ -135,9 +297,9 @@
         "pgx_moa": null
     },
     {
-        "generic_name": null,
-        "brand_name": null,
-        "pharmGKB_ID": null,
+        "generic_name": "clobazam",
+        "brand_name": "onfi",
+        "pharmGKB_ID": "PA10888",
         "pharmacokinetics": {
             "overview": null,
             "absorption": null,
@@ -162,9 +324,9 @@
         "pgx_moa": null
     },
     {
-        "generic_name": null,
-        "brand_name": null,
-        "pharmGKB_ID": null,
+        "generic_name": "clopidogrel",
+        "brand_name": "plavix",
+        "pharmGKB_ID": "PA449053",
         "pharmacokinetics": {
             "overview": null,
             "absorption": null,
@@ -189,9 +351,9 @@
         "pgx_moa": null
     },
     {
-        "generic_name": null,
-        "brand_name": null,
-        "pharmGKB_ID": null,
+        "generic_name": "dapoxetine",
+        "brand_name": "priligy",
+        "pharmGKB_ID": "PA166151992",
         "pharmacokinetics": {
             "overview": null,
             "absorption": null,
@@ -216,9 +378,9 @@
         "pgx_moa": null
     },
     {
-        "generic_name": null,
-        "brand_name": null,
-        "pharmGKB_ID": null,
+        "generic_name": "deutetrabenazine",
+        "brand_name": "austedo",
+        "pharmGKB_ID": "PA166169881",
         "pharmacokinetics": {
             "overview": null,
             "absorption": null,
@@ -243,9 +405,9 @@
         "pgx_moa": null
     },
     {
-        "generic_name": null,
-        "brand_name": null,
-        "pharmGKB_ID": null,
+        "generic_name": "eliglustat",
+        "brand_name": "cerdelga",
+        "pharmGKB_ID": "PA166123486",
         "pharmacokinetics": {
             "overview": null,
             "absorption": null,
@@ -270,9 +432,9 @@
         "pgx_moa": null
     },
     {
-        "generic_name": null,
-        "brand_name": null,
-        "pharmGKB_ID": null,
+        "generic_name": "escitalopram",
+        "brand_name": "lexapro",
+        "pharmGKB_ID": "PA10074",
         "pharmacokinetics": {
             "overview": null,
             "absorption": null,
@@ -297,9 +459,9 @@
         "pgx_moa": null
     },
     {
-        "generic_name": null,
-        "brand_name": null,
-        "pharmGKB_ID": null,
+        "generic_name": "ezetimibe / simvastatin",
+        "brand_name": "vytorin",
+        "pharmGKB_ID": "PA166184495",
         "pharmacokinetics": {
             "overview": null,
             "absorption": null,
@@ -324,9 +486,333 @@
         "pgx_moa": null
     },
     {
-        "generic_name": null,
-        "brand_name": null,
-        "pharmGKB_ID": null,
+        "generic_name": "flurbiprofen",
+        "brand_name": ["ansaid", "ocufen"],
+        "pharmGKB_ID": "PA449683",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "iloperidone",
+        "brand_name": "fanapt",
+        "pharmGKB_ID": "PA161199368",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "irinotecan",
+        "brand_name": "camptosar",
+        "pharmGKB_ID": "PA450085",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "mercaptopurine",
+        "brand_name": ["purinethol", "purixan"],
+        "pharmGKB_ID": "PA450379",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "metoclopramide",
+        "brand_name": "reglan",
+        "pharmGKB_ID": "PA450475",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "phenytoin",
+        "brand_name": "dilantin",
+        "pharmGKB_ID": "PA450947",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "pimozide",
+        "brand_name": "orap",
+        "pharmGKB_ID": "PA450965",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "pitolisant",
+        "brand_name": "wakix",
+        "pharmGKB_ID": "PA166185163",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "siponimod",
+        "brand_name": "mayzent",
+        "pharmGKB_ID": "PA166182736",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "tetrabenazine",
+        "brand_name": ["nitoman", "xenazine"],
+        "pharmGKB_ID": "PA140222719",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "thioguanine",
+        "brand_name": "tabloid",
+        "pharmGKB_ID": "PA451663",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "vitamin c",
+        "brand_name": "ascorbic acid",
+        "pharmGKB_ID": "PA451898",
+        "pharmacokinetics": {
+            "overview": null,
+            "absorption": null,
+            "distribution": null,
+            "elimination": null,
+            "special_populations": null,
+            "ddi_studies": null
+        },
+        "dosage": {
+            "dosing": null,
+            "special_populations": null,
+            "pgx": null
+        },
+        "pharmacogenomics": {
+            "overview": null,
+            "dosage": null,
+            "special_populations": null,
+            "ddis": null,
+            "lab_tests": null,
+            "precautions": null
+        },
+        "pgx_moa": null
+    },
+    {
+        "generic_name": "vortioxetine",
+        "brand_name": ["brintellix", "trintellix"],
+        "pharmGKB_ID": "PA166122595",
         "pharmacokinetics": {
             "overview": null,
             "absorption": null,
